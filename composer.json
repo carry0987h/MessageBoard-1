@@ -1,0 +1,21 @@
+{
+    "name": "chivincent/messageboard",
+    "description": "Easy MessageBoard made by PHP 7",
+    "type": "private",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vincent Chi",
+            "email": "song374561@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Message\\": "src/Message/",
+            "Request\\": "src/Request/",
+            "Validate\\": "src/Validate/",
+            "Database\\": "src/Database/"
+        }
+    },
+    "require": {}
+}
